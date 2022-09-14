@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+apscheduler = "==3.9.1"
+"backports.zoneinfo" = "==0.2.1"
+pytz = "==2022.2.1"
+pytz-deprecation-shim = "==0.1.0.post0"
+six = "==1.16.0"
+tzdata = "==2022.2"
+tzlocal = "==4.2"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
