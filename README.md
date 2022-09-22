@@ -14,7 +14,7 @@ git remote add github https://github.com/<github_account_name>/<repository_name>
 git push -u origin master
 ```
 
-### Set the buildbacks
+### Set the buildpacks
 - Get the app name: 
 ```bash
 heroku apps
@@ -24,7 +24,7 @@ heroku apps
 heroku git:remote -a your_app_name
 heroku buildpacks
 ```
-- Set [buildbacks](https://devcenter.heroku.com/articles/python-support):
+- Set [buildpacks](https://devcenter.heroku.com/articles/python-support):
 ```bash
 heroku buildpacks:clear # In case a previous buildback was set for this app
 heroku buildpacks:add heroku/python
